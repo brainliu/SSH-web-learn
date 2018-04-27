@@ -24,7 +24,7 @@
 <h1>XX网站后台管理</h1>
 <br/>
 <a href="${pageContext.request.contextPath}/manage/addCategory.jsp">添加分类</a>
-<a href="${pageContext.request.contextPath}/servlet/ControllerServlet?op=listCategoies">查看分类</a>
+<a href="${pageContext.request.contextPath}/servlet/ControllerServlet?op=Listcategory">查看分类</a>
 <a href="${pageContext.request.contextPath}/servlet/ControllerServlet?op=addBookUI">添加书籍</a>
 <a href="${pageContext.request.contextPath}/servlet/ControllerServlet?op=listBooks">查看书籍</a>
 <a href="">查看订单</a>
