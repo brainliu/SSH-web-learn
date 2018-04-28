@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="/manage/header.jsp"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <form action="${pageContext.request.contextPath}/servlet/ControllerServlet?op=addCategory" method="post">
     <table border="1">
         <tr>
