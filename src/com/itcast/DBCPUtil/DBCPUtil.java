@@ -1,6 +1,5 @@
-package com.itcast.dao.DBCPUtil;
+package com.itcast.DBCPUtil;
 
-import org.apache.commons.dbcp.BasicDataSource;
 import org.apache.commons.dbcp.BasicDataSourceFactory;
 
 import javax.sql.DataSource;
@@ -29,7 +28,7 @@ public class DBCPUtil {
 
     }
 
-    public static DataSource getdataSource(String s) {
+    public static DataSource getdataSource() {
         return datasource;
     }
     public  static Connection getconnection(){

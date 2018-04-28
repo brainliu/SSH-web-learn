@@ -1,7 +1,7 @@
 package com.itcast.dao.impl;
 
 import com.itcast.dao.CategoryDao;
-import com.itcast.dao.DBCPUtil.DBCPUtil;
+import com.itcast.DBCPUtil.DBCPUtil;
 import com.itcast.domain.Category;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
@@ -11,7 +11,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class CategoryDaoMysqlImpl implements CategoryDao {
-    private QueryRunner qr=new QueryRunner(DBCPUtil.getdataSource("dbcpconfig.properties"));
+    private QueryRunner qr=new QueryRunner(DBCPUtil.getdataSource());
     @Override
     public void add(Category category) {
         if(category==null)

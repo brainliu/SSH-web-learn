@@ -1,7 +1,7 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%@ include file="/manage/header.jsp"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<table border="1" width="438">
+<table border="1" width="438" align="center">
     <tr>
         <th>选择</th>
         <th>序号</th>
